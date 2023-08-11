@@ -1,7 +1,7 @@
 # Resnet18_Grapevine_XF
 ## Installation
 1. Install the **annconda**: https://docs.anaconda.com/free/anaconda/install/index.html
-2. Create the environment: 
+2. Create the environment: `conda create --name XF python=3.8`
 3. Install the **pytorch** :
    
    GPU version: `conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=10.2 -c pytorch`
