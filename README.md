@@ -1,4 +1,6 @@
 # Resnet18_Grapevine_XF
+## Dataset Downlaod:
+
 ## Installation
 1. Install the **annconda**: https://docs.anaconda.com/free/anaconda/install/index.html
 2. Create the environment:
@@ -19,4 +21,5 @@
 
    `python test.py`
 3. Do the visualization of Saliency Map:
+   
    `python visualize.py`
