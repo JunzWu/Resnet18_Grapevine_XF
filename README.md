@@ -1,5 +1,7 @@
 # Resnet18_Grapevine_XF
 ## Dataset Downlaod:
+1. Download the files in this link and put them in the **datasets** directory:
+
 
 ## Installation
 1. Install the **annconda**: https://docs.anaconda.com/free/anaconda/install/index.html
