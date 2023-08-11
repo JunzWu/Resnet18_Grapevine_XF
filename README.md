@@ -2,7 +2,7 @@
 ## Dataset Downlaod:
 1. Download the files in this link and put them in the **datasets** directory:
 
-   https://drive.google.com/drive/u/0/folders/1fnC7UmE8_nxLF1R7hKqInXNy4sHByLzC
+https://drive.google.com/drive/u/0/folders/1fnC7UmE8_nxLF1R7hKqInXNy4sHByLzC
 
 
 ## Installation
