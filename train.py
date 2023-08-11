@@ -116,7 +116,7 @@ class MyDataset(Dataset):
 
     # Initialize your data, download, etc.
     def __init__(self,case=None,transform=None):
-        dir_path = "/home/junz/Desktop/Internship/code/DEGnext-main/datasets/"
+        dir_path = "datasets/"
         if(case=='train'):
             print("Train dataset loading")
 
@@ -159,7 +159,7 @@ class MyDataset1(Dataset):
 
     # Initialize your data, download, etc.
     def __init__(self,case=None,transform=None):
-        dir_path = "/home/junz/Desktop/Internship/code/DEGnext-main/datasets/"
+        dir_path = "datasets/"
         if(case=='train'):
             print("Train dataset loading")
 
@@ -167,7 +167,7 @@ class MyDataset1(Dataset):
             xy = np.loadtxt(File1,delimiter=',', dtype=np.float32)
             xy = xy.T
             print(xy.shape)
-            File1 = dir_path+'label_train_4_noLPS.txt'
+            File1 = dir_path+'label_train_4_noLPS1.txt'
             xy_label = np.loadtxt(File1,delimiter='\t', dtype=np.int64, encoding='utf-16')
             print(xy_label.shape)
             self.transform=transform
@@ -181,7 +181,7 @@ class MyDataset1(Dataset):
             xy = np.loadtxt(File,delimiter=',', dtype=np.float32)
             xy = xy.T
             print(xy.shape)
-            File = dir_path+'label_val_4_noLPS.txt'
+            File = dir_path+'label_val_4_noLPS1.txt'
             xy_label = np.loadtxt(File,delimiter='\t', dtype=np.int64, encoding='utf-16')
             self.transform=transform
             self.x_data=xy

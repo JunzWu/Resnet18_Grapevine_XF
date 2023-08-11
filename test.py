@@ -41,7 +41,7 @@ class MyDataset(Dataset):
 
     # Initialize your data, download, etc.
     def __init__(self,case=None,transform=None):
-        dir_path = "/home/junz/Desktop/Internship/code/DEGnext-main/datasets/"
+        dir_path = "datasets/"
         if(case=='train'):
             print("Train dataset loading")
 

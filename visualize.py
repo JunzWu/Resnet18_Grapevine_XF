@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
 
     print("Test dataset loading")
-    dir_path = "/home/junz/Desktop/Internship/code/DEGnext-main/datasets/"
+    dir_path = "datasets/"
     File1 = dir_path+'count_matrix_train_noLPS_filter1.csv'
     xy1 = np.loadtxt(File1,delimiter=',', dtype=np.float32)
     xy1 = xy1.T
